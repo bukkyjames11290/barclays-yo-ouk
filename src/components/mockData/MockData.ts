@@ -199,7 +199,7 @@ export const mockAccounts: Account[] = [
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 3200000.0
+      balance_usd: 3500000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -213,7 +213,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'September 08, 2025',
         description: 'Wire Transfer from Norman kitt - XXXXXX3664',
         status: 'Pending',
-        amount_usd: 3200000.0
+        amount_usd: 3500000.0
       },
     ]
   }
