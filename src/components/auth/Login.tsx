@@ -39,7 +39,7 @@ export default function Login() {
           <form onSubmit={handleLogin}>
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-3">
-                <label htmlFor="Last Name">Last Name</label>
+                <label htmlFor="Username">Username</label>
                 <input
                   type="text"
                   value={username}
@@ -48,7 +48,7 @@ export default function Login() {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <label htmlFor="Membership number (12 digits)">Membership number (12 digits)</label>
+                <label htmlFor="Password">Password</label>
                 <input
                   type="password"
                   value={password}
