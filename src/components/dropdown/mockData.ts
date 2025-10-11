@@ -3,6 +3,7 @@ export const listBks = [
   { id: 10002, name: 'Barclays' },
   { id: 10003, name: 'Lloyds Bank' },
   { id: 27381, name: 'American Express' },
+  { id: 36474, name: 'Sparkasse Bank' },
   { id: 65310, name: 'Charles Schwab' },
   { id: 10004, name: 'NatWest' },
   { id: 10005, name: 'Royal Bank of Scotland' },

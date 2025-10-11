@@ -193,8 +193,8 @@ export const mockAccounts: Account[] = [
       fullName: 'George Atkinson',
       email: 'atkin*892@gmail.com',
       dateCreated: '9/3/2025', // m/d/y
-      username: "atkinsongeorge892",
-      password: "040410",
+      username: 'atkinsongeorge892',
+      password: '040410'
     },
     bank_details: {
       account_type: 'Checking',
@@ -214,7 +214,7 @@ export const mockAccounts: Account[] = [
         description: 'Wire Transfer from Norman kitt - XXXXXX3664',
         status: 'Success',
         amount_usd: 3500000.0
-      },
+      }
     ]
   },
   {
@@ -223,8 +223,8 @@ export const mockAccounts: Account[] = [
       fullName: 'RITA PAUL',
       email: 'r*@gmail.com',
       dateCreated: '10/11/2025', // m/d/y
-      username: "rita_paul87",
-      password: "PaulRita@136",
+      username: 'rita_paul87',
+      password: 'PaulRita@136'
     },
     bank_details: {
       account_type: 'Checking',
@@ -506,8 +506,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Henry Jacob',
       email: 'henr**43@gmail.com',
       dateCreated: '10/11/2025', // m/d/y
-      username: "henryjacob2143",
-      password: "h@12345",
+      username: 'henryjacob2143',
+      password: 'h@12345'
     },
     bank_details: {
       account_type: 'Checking',
@@ -524,10 +524,196 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'November 23, 2024',
-        description: 'Transfer From Williams Peter - XXXXXX3843',
+        description: 'Transfer From Williams Peter - XXXXXX2747',
         status: 'Success',
-        amount_usd: 5500000.0
+        amount_usd: 20000.0
       },
+      {
+        dateTime: 'October 8, 2024',
+        description: 'Transfer From Natalie Rivers - XXXXXX3843',
+        status: 'Success',
+        amount_usd: 18000.0
+      },
+      {
+        dateTime: 'October 5, 2024',
+        description: 'Transfer From Greenfield Holdings Inc. - XXXXXX5444',
+        status: 'Success',
+        amount_usd: 17500.0
+      },
+      {
+        dateTime: 'October 1, 2024',
+        description: 'Transfer From Eric~Edward Oilfield company - XXXXXX6456',
+        status: 'Success',
+        amount_usd: 23500.0
+      },
+      {
+        dateTime: 'September 14, 2024',
+        description: 'Transfer from msc shipping company - XXXXXX7924',
+        status: 'Success',
+        amount_usd: 50000.0
+      },
+      {
+        dateTime: 'September 11, 2024',
+        description: 'Maintenance fee - XXXXXX8553',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'September 11, 2024',
+        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX34345',
+        status: 'Success',
+        amount_usd: -20000.0
+      },
+      {
+        dateTime: 'September 5, 2024',
+        description: 'Interest - XXXXXX9376',
+        status: 'Success',
+        amount_usd: 67000.0
+      },
+      {
+        dateTime: 'August 30, 2024',
+        description: 'Concert Revenue – Nashville Show - XXXXXX1023',
+        status: 'Success',
+        amount_usd: 250000.0
+      },
+      {
+        dateTime: 'August 27, 2024',
+        description: 'Transfer fee - XXXXXX3448',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'August 27, 2024',
+        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX8472',
+        status: 'Success',
+        amount_usd: -42800.0
+      },
+      {
+        dateTime: 'August 23, 2024',
+        description: 'Streaming Royalty - Interest - XXXXXX5639',
+        status: 'Success',
+        amount_usd: 76450.0
+      },
+      {
+        dateTime: 'August 20, 2024',
+        description: 'Transfer fee - XXXXXX6483',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'August 20, 2024',
+        description: 'Tour Bus Lease - XXXXXX2314',
+        status: 'Success',
+        amount_usd: -9200.0
+      },
+      {
+        dateTime: 'August 15, 2024',
+        description: 'Merchandise Sales – Online Store - XXXXXX4590',
+        status: 'Success',
+        amount_usd: 18750.0
+      },
+      {
+        dateTime: 'August 12, 2024',
+        description: 'Hotel Accommodations – Dallas Tour - XXXXXX9806',
+        status: 'Success',
+        amount_usd: -6480.0
+      },
+      {
+        dateTime: 'August 8, 2024',
+        description: 'Transfer to Liam Wilson - XXXXXX63536',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'August 8, 2024',
+        description: 'Collector’s Fiddle Purchase - XXXXXX3178',
+        status: 'Success',
+        amount_usd: -12500.0
+      },
+      {
+        dateTime: 'August 5, 2024',
+        description: 'Ticket Revenue – Chicago Concert - XXXXXX6845',
+        status: 'Success',
+        amount_usd: 185000.0
+      },
+      {
+        dateTime: 'August 1, 2024',
+        description: 'Utility & Studio Overhead - XXXXXX7529',
+        status: 'Success',
+        amount_usd: -2150.0
+      },
+      {
+        dateTime: 'December 20, 2023',
+        description: 'End-of-year royalty payout - XXXXXX6849',
+        status: 'Success',
+        amount_usd: 72500.0
+      },
+      {
+        dateTime: 'March 20, 2023',
+        description: 'Transfer to Liam Wilson - XXXXXX1358',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'March 20, 2023',
+        description: 'Studio sessions for duet album - XXXXXX1023',
+        status: 'Success',
+        amount_usd: -16900.0
+      },
+      {
+        dateTime: 'January 15, 2023',
+        description: 'New year merchandise sales - XXXXXX5738',
+        status: 'Success',
+        amount_usd: 14200.0
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Transfer fee - XXXXXX3963',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX3092',
+        status: 'Success',
+        amount_usd: -61800.0
+      },
+      {
+        dateTime: 'August 20, 2023',
+        description: 'TV appearance performance fee - XXXXXX4810',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'August 16, 2023',
+        description: 'Maintenance fee - XXXXXX6464',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'June 15, 2023',
+        description: 'Merch booth sales (summer shows) - XXXXXX7291',
+        status: 'Success',
+        amount_usd: 18250.0
+      },
+      {
+        dateTime: 'May 20, 2023',
+        description: 'Bus & equipment transport - XXXXXX1847',
+        status: 'Success',
+        amount_usd: -22600.0
+      },
+      {
+        dateTime: 'April 15, 2023',
+        description: 'Ticket revenue (Spring Concert Series) - XXXXXX3928',
+        status: 'Success',
+        amount_usd: 310000.0
+      },
+      {
+        dateTime: 'February 20, 2023',
+        description: 'Studio rental for collaborations - XXXXXX1027',
+        status: 'Success',
+        amount_usd: -11400.0
+      }
     ]
   }
 ];
