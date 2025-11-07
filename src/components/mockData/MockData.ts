@@ -522,7 +522,7 @@ export const mockAccounts: Account[] = [
       transaction_code: '23782',
       headerText: 'Dear Valued Customer,',
       lastStepText:
-        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team here internetscrtbrclsk@gmail.con for assistance.',
       wireDate: true
     },
     transaction_history: [
