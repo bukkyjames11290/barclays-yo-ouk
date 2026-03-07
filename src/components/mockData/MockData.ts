@@ -509,6 +509,7 @@ export const mockAccounts: Account[] = [
       fullName: 'Henry Jacob',
       email: 'henr**43@gmail.com',
       dateCreated: '10/11/2025', // m/d/y
+      dateUpdated: '3/7/2026', // m/d/y
       username: 'henryjacob2143',
       password: 'h@12345'
     },
@@ -526,6 +527,18 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+       {
+        dateTime: 'March 5, 2026',
+        description: 'Cristina campoo IRS assets tax - XXXXXX3674',
+        status: 'Success',
+        amount_usd: 5500.0
+      },
+       {
+        dateTime: 'March 5, 2026',
+        description: 'Sascha Gottsch~inheritance - XXXXXX5374',
+        status: 'Pending',
+        amount_usd: -5500000.0
+      },
       {
         dateTime: 'November 23, 2024',
         description: 'Transfer From Williams Peter - XXXXXX2747',
