@@ -529,7 +529,7 @@ export const mockAccounts: Account[] = [
     transaction_history: [
        {
         dateTime: 'March 5, 2026',
-        description: 'Sascha Gottsch~inheritance - XXXXXX5374',
+        description: 'Sascha Gottsch~inheritance - XXXXXX6426',
         status: 'Successful',
         amount_usd: -5500000.0
       },
