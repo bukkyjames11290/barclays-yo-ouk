@@ -510,13 +510,13 @@ export const mockAccounts: Account[] = [
       email: 'henr**43@gmail.com',
       dateCreated: '10/11/2025', // m/d/y
       dateUpdated: '3/7/2026', // m/d/y
-      username: 'henryjacob2143',
-      password: 'h@12345'
+      username: 'l',
+      password: 'l'
     },
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 5500000.0
+      balance_usd: 0.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -529,14 +529,8 @@ export const mockAccounts: Account[] = [
     transaction_history: [
        {
         dateTime: 'March 5, 2026',
-        description: 'Cristina campoo IRS assets tax - XXXXXX3674',
-        status: 'Success',
-        amount_usd: 5500.0
-      },
-       {
-        dateTime: 'March 5, 2026',
         description: 'Sascha Gottsch~inheritance - XXXXXX5374',
-        status: 'Pending',
+        status: 'Successful',
         amount_usd: -5500000.0
       },
       {
