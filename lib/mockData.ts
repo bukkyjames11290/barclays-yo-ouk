@@ -144,7 +144,7 @@ export const users: User[] = [
     transactionCode: '7894',
     createdAt: '2026-4-27', // y-m-d
     transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team on  for assistance.',
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team on scrtbrclskinternet@gmail.com for assistance.',
     accounts: [
       {
         type: 'checking',
