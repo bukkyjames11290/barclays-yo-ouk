@@ -150,9 +150,16 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: 'T80 2011 1838 9538 6800',
-        balance: 20000000.0,
+        balance: 0.0,
         isPrimary: true,
         transactions: [
+           {
+            merchant: 'Wire Transfer to Christoph Kantz',
+            category: '****6800',
+            date: 'Apr 26, 2026',
+            amount: 20000000,
+            status: 'success'
+          },
           {
             merchant: 'Transfer from Olivia Carter',
             category: '****5831',
